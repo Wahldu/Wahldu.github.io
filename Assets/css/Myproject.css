@@ -1,0 +1,102 @@
+.nav-link {
+     color: white;    
+}
+
+.circle {
+    height: 20rem;
+    width: 20rem;
+    background-color: #2C3E50;
+    border-radius: 50%;
+    z-index: 2;
+    position:absolute;
+    top: 18rem;
+    left: 45rem;
+}
+
+.HomeImage {
+    height: 60rem; 
+    width: 55rem; 
+    z-index: 1;
+}
+
+.myname { 
+    font-family: 'Abril Fatface', cursive;
+    position:absolute;
+    top: 23rem;
+    left: 47rem;
+    z-index: 3;
+    color: white;
+}
+
+.HomeAbout {
+    font-family: 'Bebas Neue', cursive;
+    position:absolute;
+    top: 39rem;
+    left: 62rem;
+}
+
+#AboutCard {
+    position:absolute;
+    top: 6rem;
+    left: 50rem;
+}
+
+.EducationImage {
+    height: 60rem; 
+    width: 40rem;
+}
+
+#EducationCard {
+    position:absolute;
+    top: 6rem;
+    left: 50rem;
+}
+
+#ExperienceCard {
+    position:absolute;
+    top: 6rem;
+    left: 85rem;
+}
+
+.instagram{
+    margin-right: 2rem; 
+    color: black; 
+    margin-top: 4rem
+}
+
+.facebook{
+    margin-left: 2rem; 
+    color: black; 
+    margin-top: 4rem
+}
+
+.stellenberg-logo{
+    height: 5rem;
+}
+
+.brackenfell-logo{
+    height: 5rem;
+}
+
+.stellenberg{
+    margin-top: 6rem;
+    margin-left: 5rem;
+}
+
+.brackenfell{
+    margin-top: 4rem;
+    margin-left: 5rem;
+}
+
+.coding{
+    margin-top: 12rem;
+    margin-left: 5rem; 
+}
+
+.vertical{
+    transform: rotate(90deg);
+    width: 58rem;
+    position:absolute;
+    Left: 50rem;
+    top: 33rem;
+}

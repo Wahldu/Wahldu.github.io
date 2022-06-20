@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">        
+    <link rel="stylesheet" href="./Assets/css/Myproject.css">
+</head>
+    <body style="background: #2C3E50">
+    <header>       
+        <nav class="navbar navbar-expand-lg" style="background-color: #34495E;">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link" href="index.html"><h4>Home</h4></a>
+                  <a class="nav-link" href="MyProject-About.html"><h4>About</h4></a>
+                  <a class="nav-link" href="MyProject-Education&Experience.html"><h4>Education/Experience</h4></a>
+                  <a style="color: #00BFFF" class="nav-link active" aria-current="page" href="MyProject-Contact.html"><b><h3>Contact</h3></b></a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+      <center>        
+        <div style="background: #2C3E50; border-color: #2C3E50; width: 70rem; height: 30rem; margin-top: 10rem" class="card">
+              <form method="post" name="contact_form" action="javascript:;" onsubmit="contact()">
+          <div class="card-body">
+            <h1 style="color: #00BFFF; font-family: 'Staatliches', cursive;">Contact me</h1>
+            <br>
+            <div class="row">
+                <div class="col">
+                  <input style="background: #2C3E50; color: white;" type="text" id="name" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col">
+                  <input style="background: #2C3E50; color: white;" type="email" id="email" class="form-control" placeholder="Email" aria-label="Last name">
+                </div>
+              </div>
+              <br>
+              <div class="mb-3">
+                <input style="background: #2C3E50; color: white;" type="text" id="subject" class="form-control" id="formGroupExampleInput" placeholder="Subject">
+              </div>
+              <br>
+              <div class="mb-3">
+                <textarea style="background: #2C3E50; color: white;" class="form-control" id="message" rows="5" placeholder="Message"></textarea>
+              </div>
+              <br>
+              <center>
+                <button style="background: #00BFFF; border-color: #00BFFF" type="submit" class="btn btn-primary btn-lg">SEND MESSAGE</button>
+              </center>
+             </div>
+            </form>
+          </div>          
+        </center>
+      <script src="./Assets/js/jquery.min.js"></script>
+      <script src="./Assets/js/MyProject.js"></script>
+    </main>
+
+    <footer  style="background: #515C6B; margin-top: 19rem">
+      <section>
+        <center>
+        <a href="https://www.instagram.com/wahldu/"><ion-icon class="instagram" size="large" name="logo-instagram"></ion-icon></a><a href="https://www.facebook.com/wahldu.burggraaff"><ion-icon class="facebook"  size="large" name="logo-facebook"></ion-icon></a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h6 style="color: #778899" >Wahldu Burggraaff &#169</h6>
+        <br> 
+      </center>
+      </section>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+
+</html>
